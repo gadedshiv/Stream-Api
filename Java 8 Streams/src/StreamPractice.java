@@ -9,6 +9,7 @@ public class StreamPractice {
 		
 		System.out.println(numbers.stream().distinct().collect(Collectors.toList()));
 		System.out.println(numbers.stream().sorted().collect(Collectors.toList()));
+		System.out.println(numbers.stream().noneMatch(n->n>50));
 	}
 
 }
