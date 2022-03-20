@@ -12,6 +12,7 @@ public class StreamPractice {
 		System.out.println(numbers.stream().noneMatch(n->n>50));
 		System.out.println(numbers.stream().count());
 		System.out.println(numbers.stream().findFirst());
+		System.out.println(numbers.stream().limit(5).collect(Collectors.toList()));
 	}
 
 }
