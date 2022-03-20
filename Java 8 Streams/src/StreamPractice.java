@@ -10,6 +10,8 @@ public class StreamPractice {
 		System.out.println(numbers.stream().distinct().collect(Collectors.toList()));
 		System.out.println(numbers.stream().sorted().collect(Collectors.toList()));
 		System.out.println(numbers.stream().noneMatch(n->n>50));
+		System.out.println(numbers.stream().count());
+		System.out.println(numbers.stream().findFirst());
 	}
 
 }
